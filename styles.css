@@ -19,10 +19,16 @@ body{
 }
 
 h1{
-    margin:0 50%;
+    margin:0 45%;
 }
-strong{
+span{
     color:silver;
+    font-family: cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+span:hover{
+    color:white;
 }
 
 button {
@@ -32,6 +38,7 @@ button {
     background-color:rgb(58, 122, 131);
     color: rgb(227, 241, 240);
     margin: 0 20%;
+    padding:1%;
 }
 button:hover {
     color:rgb(4, 39, 39);
